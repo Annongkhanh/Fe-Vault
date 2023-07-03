@@ -15,7 +15,7 @@ import {
 } from "wagmi";
 
 const Home: NextPage = () => {
-  const contractAddress = "0xC960fA52513293a46ce1C4082Bef59E3B09667b8";
+  const contractAddress = "0xBf073fA4abE4Dc40A382FD3Ed95Ca2804B5049b3";
   
   // const contractAddress = "0x9dAb98C3990A3C1508aeDed4dEc6330Acf456599";
 
