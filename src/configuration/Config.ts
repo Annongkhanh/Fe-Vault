@@ -1,5 +1,6 @@
 import { ThemingProps } from '@chakra-ui/react'
 import { polygonMumbai} from '@wagmi/chains'
+import { Chain } from 'wagmi'
 
 export const SITE_NAME = 'FE Vault'
 export const SITE_DESCRIPTION = 'Deposit SHM and get Tokens'
@@ -12,11 +13,11 @@ export const THEME_CONFIG = { initialColorMode: THEME_INITIAL_COLOR }
 
 
 export const INFURA_KEY = 'b842e61092284d098badb6f70cae2963'
-export const NETWORKS = [shardeumSphinx, polygonMumbai]
+export const NETWORKS = [shardeumSphinxDapps, polygonMumbai]
 
-declare const shardeumSphinx: {
+declare const shardeumSphinxDapps: {
     readonly id: 8081;
-    readonly name: "Shardeum Sphinx";
+    readonly name: "Shardeum Sphinx Dapps";
     readonly network: "shmSphinx";
     readonly nativeCurrency: {
         readonly name: "SHARDEUM";
