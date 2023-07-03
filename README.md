@@ -2,7 +2,7 @@
 
 Demo: https://still-rain-7876.on.fleek.co/
 
-Contract Address: 0xC960fA52513293a46ce1C4082Bef59E3B09667b8
+Contract Address: 0xBf073fA4abE4Dc40A382FD3Ed95Ca2804B5049b3
 
-Youtube demo: 
+Youtube demo: https://youtu.be/UyoJ-n-6X_A
 
