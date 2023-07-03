@@ -33,8 +33,8 @@ export const shardeumSphinxDapps =  {
     },
      blockExplorers: {
          default: {
-             name: "Shardeum Explorer";
-             url: "https://explorer-dapps.shardeum.org";
+             name: "Shardeum Explorer",
+             url: "https://explorer-dapps.shardeum.org",
         },
     },
      testnet: true,
