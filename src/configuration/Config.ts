@@ -38,6 +38,6 @@ export const shardeumSphinxDapps =  {
         },
     },
      testnet: true,
-}as const satisfies Chain
+};
 
 export const NETWORKS = [shardeumSphinxDapps, polygonMumbai]
