@@ -13,30 +13,31 @@ export const THEME_CONFIG = { initialColorMode: THEME_INITIAL_COLOR }
 
 
 export const INFURA_KEY = 'b842e61092284d098badb6f70cae2963'
-export const NETWORKS = [shardeumSphinxDapps, polygonMumbai]
 
-declare const shardeumSphinxDapps: {
-    readonly id: 8081;
-    readonly name: "Shardeum Sphinx Dapps";
-    readonly network: "shmSphinx";
+export const shardeumSphinxDapps =  {
+    readonly id: 8081,
+    readonly name: "Shardeum Sphinx Dapps",
+    readonly network: "shmSphinx",
     readonly nativeCurrency: {
-        readonly name: "SHARDEUM";
-        readonly symbol: "SHM";
-        readonly decimals: 18;
-    };
-    readonly rpcUrls: {
-        readonly default: {
-            readonly http: readonly ["https://dapps.shardeum.org"];
-        };
-        readonly public: {
-            readonly http: readonly ["https://dapps.shardeum.org"];
-        };
-    };
+         name: "SHARDEUM",
+         symbol: "SHM",
+         decimals: 18,
+    },
+    rpcUrls: {
+         default: {
+            readonly http:  ["https://dapps.shardeum.org"],
+        },
+         public: {
+            readonly http:  ["https://dapps.shardeum.org"],
+        }
+    },
     readonly blockExplorers: {
         readonly default: {
             readonly name: "Shardeum Explorer";
             readonly url: "https://explorer-dapps.shardeum.org";
-        };
-    };
-    readonly testnet: true;
-};
+        },
+    },
+    readonly testnet: true,
+}as const satisfies Chain
+
+export const NETWORKS = [shardeumSphinxDapps, polygonMumbai]
